@@ -88,8 +88,8 @@ input{
 @media(max-width:480px){
     body{
         background-color: #ffffff;
-        width: 500px;
-        max-width:720;
+        width: 550px;
+        max-width:720px;
         padding: 0;
         margin: 0;
     }
