@@ -88,8 +88,7 @@ input{
 @media(max-width:480px){
     body{
         background-color: #ffffff;
-        width: 480px;
-        max-width:480px;
+        width: calc(100vw);
         padding: 0;
         margin: 0;
     }
