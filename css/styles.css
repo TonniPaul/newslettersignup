@@ -138,8 +138,8 @@ input{
         width: 100%;
         background-color: #2355F2;
         color: #ffffff;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
+        border-top-left-radius: 0.7em;
+        border-top-right-radius: 0.7em;
     }
     .input{
         padding: 0.7em;
