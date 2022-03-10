@@ -90,26 +90,33 @@ input{
         width: 60%;
         margin: 3em auto;
     }
+    .blue{
+        margin: 0 auto;
+        width: 100%;
+        background-color: #2355F2;
+        color: #ffffff;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
     .input{
         padding: 0.7em;
         background-color: #F5F7FA;
         border: solid #ECEEF4;
         border-radius: 0.8em;
         color: #ECEEF4;
-        width: 50%;
+        width: 40%;
     }
     .button{
+        text-align: center;
         padding: 0.7em;
         background-color: #2355F2;
         border: solid #2355F2;
         border-radius: 0.8em;
         color: #ECEEF4;
-        width: 30%;
+        width: 35%;
     }
     h2{
-        width: 70%;
-        margin-top: 0;
-        margin-right: 0;
+        margin: 0 auto;
     }
 }
 
@@ -136,7 +143,7 @@ input{
         color: #ffffff;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
-}
+    }
     .input{
         padding: 1em;
         background-color: #F5F7FA;
