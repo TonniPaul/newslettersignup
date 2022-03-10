@@ -14,7 +14,7 @@ p{
 .cont{
     background-color: #ffffff;
     margin: 4.5em auto;
-    width:460px;
+    width:33%;
     color: #271d1d;
     border-radius: 0.7em;
 }
@@ -85,25 +85,47 @@ input{
     border-color: #2a355a;
     padding: 1em;
 }
-@media(max-width:480px){
+@media(max-width:720px){
+    .cont{
+        width: 60%;
+        margin: 3em auto;
+    }
+    .input{
+        padding: 0.7em;
+        background-color: #F5F7FA;
+        border: solid #ECEEF4;
+        border-radius: 0.8em;
+        color: #ECEEF4;
+        width: 50%;
+    }
+    .button{
+        padding: 0.7em;
+        background-color: #2355F2;
+        border: solid #2355F2;
+        border-radius: 0.8em;
+        color: #ECEEF4;
+        width: 30%;
+    }
+}
+@media(max-width:400px){
     body{
+        background: none;
         background-color: #ffffff;
-        width: calc(100vw);
-        padding: 0;
+        padding: 0 auto;
         margin: 0;
     }
     .cont{
-        width: 90%;
+        width: 100%;
         margin:0;
         border-radius: 0;;
-        height: 919px;
     }
     h2{
+        width: 50%;
         margin-top: 0;
         margin-right: 0;
     }
     .blue{
-
+        width: 100%;
         background-color: #2355F2;
         color: #ffffff;
         border-top-left-radius: 0;
