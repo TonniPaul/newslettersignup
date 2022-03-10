@@ -130,8 +130,8 @@ input{
 }
 @media(max-width:720px){
     .cont{
-        width: 60%;
-        margin: 3em auto;
+        width: 70%;
+        margin: 2.5em auto;
     }
     .blue{
         margin: 0 auto;
